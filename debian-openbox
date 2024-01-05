@@ -1,5 +1,6 @@
 #!/bin/bash
 # https://alkusin.net/crubuntung
+#Modifié par Jambalak 
 
 bypass() {
   sudo -v
