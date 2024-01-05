@@ -37,6 +37,8 @@ clear
      sudo apt -y install synaptic system-config-printer thunar thunar-archive-plugin thunar-volman thunderbird tint2 transmission-gtk tumbler tumbler-plugins-extra volumeicon-alsa wget xarchiver xbacklight xcalib xdg-user-dirs-gtk xdg-utils xdotool xfce4-appfinder xfce4-battery-plugin xfce4-clipman xfce4-notifyd xfce4-power-manager xfce4-screenshooter xfce4-settings xfce4-taskmanager xfce4-terminal xiccd xinit xorg xpdf xserver-xorg xz-utils plank geany unzip 7zip xrdp
 sudo adduser xrdp ssl-cert
 sudo systemctl restart xrdp
+mkdir -p ~/.config/openbox
+cp -a /etc/xdg/openbox/ ~/.config/
 clear
   printf "$txt3\n\n"
   sleep 3s
